@@ -1,13 +1,13 @@
 public class PrimitivosBoolean {
     public static void main(String[] args) {
-        boolean datoLogico = false;
+        boolean dato_logico = false;
         //datoLogico = Boolean.TRUE;
-        System.out.println("datoLogico = " + datoLogico);
+        System.out.println("dato_logico = " + dato_logico);
 
         double d = 9.0;
         double e = 7.0;
 
-        datoLogico = (d > e);
-        System.out.println("datoLogico = " + datoLogico);
+        dato_logico = (d > e);
+        System.out.println("dato_logico = " + dato_logico);
     }
 }
