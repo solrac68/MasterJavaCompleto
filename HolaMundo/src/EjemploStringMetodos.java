@@ -13,5 +13,20 @@ public class EjemploStringMetodos {
         System.out.println("nombre.charAt(6): " + nombre.charAt(5));
         System.out.println("nombre.substring(1): " + nombre.substring(1));
         System.out.println("nombre.substring(1,4): " + nombre.substring(1,4));
+
+        String trabalenguas = "trabalenguas";
+        String trabalenguas2 = "   trabalenguas   ";
+        System.out.println("trabalenguas.replace(\"a\",\"A\") = " + trabalenguas.replace("a","A"));
+        System.out.println("trabalenguas.indexOf('a') = " + trabalenguas.indexOf('a'));
+        System.out.println("trabalenguas.lastIndexOf('a') = " + trabalenguas.lastIndexOf('a'));
+        System.out.println("trabalenguas.lastIndexOf('z') = " + trabalenguas.lastIndexOf('z'));
+        System.out.println("trabalenguas.contain(\"t\") = " + trabalenguas.contains("t")); // true
+        System.out.println("trabalenguas.contains(\"ta\") = " + trabalenguas.contains("ta")); // false
+        System.out.println("trabalenguas.contains(\"lenguas\") = " + trabalenguas.startsWith("lenguas")); // false
+        System.out.println("trabalenguas.contains(\"traba\") = " + trabalenguas.startsWith("traba")); // true
+        System.out.println("trabalenguas.contains(\"lenguas\") = " + trabalenguas.endsWith("lenguas")); // true
+        System.out.println("trabalenguas2.trim())= " + trabalenguas2.trim());
+
+
     }
 }
