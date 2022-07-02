@@ -17,7 +17,7 @@ public class AsignarPropiedadesDeSistema {
             String nombre = System.getProperty("config.autor.nombre");
             System.out.println("nombre = " + nombre);
         } catch (Exception e) {
-            System.out.println("NO existe el archivo = " + e);
+            System.err.println("NO existe el archivo = " + e);
         }
 
     }
